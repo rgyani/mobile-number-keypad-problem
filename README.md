@@ -179,7 +179,7 @@ So now, we have a clear understanding of how to find the count, for each start f
 ***Count[9,N] = Count[8, N-1] + Count[6, N-1]***<br>
 
 
-###Lets talk about the implementation now
+### Lets talk about the implementation now
 
 Its is obvious, we can solve this in O(N) time, since the main loop runs N time, while the auxilary loops for finding the movement using
 ```
